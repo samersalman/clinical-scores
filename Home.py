@@ -47,6 +47,7 @@ for i, score_info in enumerate(discovered):
         page_files = {
             "ford": "pages/1_FORD_Score.py",
             "rams": "pages/2_RAMS_Score.py",
+            "prime_icu": "pages/3_PRIME_ICU_Score.py",
         }
         if key in page_files:
             st.page_link(page_files[key], label=f"Open {meta['name']}", icon="🏥")
